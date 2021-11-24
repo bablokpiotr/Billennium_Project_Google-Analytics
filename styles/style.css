@@ -232,6 +232,7 @@
     width: 20%;
 }
 
+/* @media */
 
 @media screen and (max-width: 700px) {
     .newsletter-direction {
