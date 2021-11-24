@@ -41,6 +41,7 @@
 
 .user-section {
     list-style-type: none;
+    padding: 0;
 }
 
 .white-bg {
@@ -70,8 +71,6 @@
 /* Main Header */
 
 .main-header p {
-    font-size: 2.6vw;
-    text-align: center;
     font-weight: 600;
 }
 
