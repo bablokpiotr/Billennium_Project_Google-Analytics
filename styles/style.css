@@ -37,11 +37,17 @@
     color: #ff5a00 !important;
 }
 
+/* Login SignIn */
+
+.user-section {
+    list-style-type: none;
+    padding: 0;
+}
+
 .white-bg {
     background-color: white !important;
     color: black !important;
     border-radius: 2px;
-    margin: 0 1rem 0 1rem !important;
     transition: 0.3s;
 }
 
@@ -65,8 +71,6 @@
 /* Main Header */
 
 .main-header p {
-    font-size: 2.6vw;
-    text-align: center;
     font-weight: 600;
 }
 
@@ -98,19 +102,7 @@
 }
 
 /* Special Offer Container */
-.black-box {
-    border: 3px solid #000000;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    left: 2rem;
-    top: 2rem;
-}
-
 .ad {
-    margin-bottom: 10rem;
-    padding: 2rem 0 2rem 0;
     border: 3px solid #ff5a00;
     height: auto;
     position: relative;
@@ -122,8 +114,8 @@
     transform: rotate(-45deg);
     text-align: center;
     position: absolute;
-    top: -4rem;
-    left: -4rem;
+    top: -2rem;
+    left: -2rem;
 }
 
 .ad h2 {
@@ -139,32 +131,28 @@
     text-align: center;
 }
 
-/* Tiger Section */
-.tiger {
-    position: relative;
+.black-box {
+    border: 3px solid #000000;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 2rem;
+    top: 2rem;
 }
-
-.tiger-slogan {
-    margin-top: 3rem;
-}
-
-.tiger-slogan img {
-    height: 150px;
-}
-
-.tiger-desc {
-    font-size: 0.8rem;
-}
-
-.tiger-sticker {
-    visibility: hidden;
-}
-
 
 /* Footer */
 
-.main-content {
-    border-bottom: #ff5a00 2px solid;
+.main-content h5 {
+    font-size: 4vw;
+}
+
+.main-content a {
+    font-size: 4vw;
+}
+
+.hr-line--footer {
+    border-top: #ff5a00 2px solid;
 }
 
 .rights p {
@@ -172,12 +160,12 @@
 }
 
 /* Newsletter */
-.newsletter-container{
+.newsletter-container {
     display: flex;
     flex-direction: row;
 }
 
-.newsletter-info{
+.newsletter-info {
     text-align: left;
     width: 300px;
     padding: 70px 50px 70px 50px;
@@ -186,23 +174,41 @@
     height: 100%;
 }
 
+<<<<<<< HEAD
 .bold{
+=======
+.btn-orange {
+    background-color: #ff5a00;
+    border: 1px solid #ff5a00;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn-orange:hover {
+    cursor: pointer;
+    background-color: #ff5a00;
+    border: 1px solid #ff5a00;
+    transform: scale(1.05);
+}
+
+.bold {
+>>>>>>> Edit_Web_Template
     font-weight: bold;
 }
 
-.newsletter-direction{
+.newsletter-direction {
     display: flex;
     flex-direction: row;
 }
 
-.email-input{
+.email-input {
     border-left: none;
     border-right: none;
     border-top: none;
     border-radius: 0;
 }
 
-.email-input:focus{
+.email-input:focus {
     box-shadow: 0px 2px 0px 0px #ff5a00;
     border-bottom: #ff5a00;
 }
@@ -227,14 +233,16 @@
 
 
 @media screen and (max-width: 700px) {
-    .newsletter-direction{
+    .newsletter-direction {
         display: flex;
         flex-direction: column;
     }
 
-    .newsletter-info{
-        border-left: 1px solid #ff5a00;;
+    .newsletter-info {
+        border-left: 1px solid #ff5a00;
+        ;
     }
+<<<<<<< HEAD
 
 }
 
@@ -253,3 +261,6 @@
     }
 }
 
+=======
+}
+>>>>>>> Edit_Web_Template
