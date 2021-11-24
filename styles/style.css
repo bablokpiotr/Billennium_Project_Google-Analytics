@@ -102,19 +102,7 @@
 }
 
 /* Special Offer Container */
-.black-box {
-    border: 3px solid #000000;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    left: 2rem;
-    top: 2rem;
-}
-
 .ad {
-    margin-bottom: 10rem;
-    padding: 2rem 0 2rem 0;
     border: 3px solid #ff5a00;
     height: auto;
     position: relative;
@@ -126,8 +114,8 @@
     transform: rotate(-45deg);
     text-align: center;
     position: absolute;
-    top: -4rem;
-    left: -4rem;
+    top: -2rem;
+    left: -2rem;
 }
 
 .ad h2 {
@@ -141,6 +129,16 @@
 
 .ad p {
     text-align: center;
+}
+
+.black-box {
+    border: 3px solid #000000;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 2rem;
+    top: 2rem;
 }
 
 /* Tiger Section */
