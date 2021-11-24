@@ -141,32 +141,18 @@
     top: 2rem;
 }
 
-/* Tiger Section */
-.tiger {
-    position: relative;
-}
-
-.tiger-slogan {
-    margin-top: 3rem;
-}
-
-.tiger-slogan img {
-    height: 150px;
-}
-
-.tiger-desc {
-    font-size: 0.8rem;
-}
-
-.tiger-sticker {
-    visibility: hidden;
-}
-
-
 /* Footer */
 
-.main-content {
-    border-bottom: #ff5a00 2px solid;
+.main-content h5 {
+    font-size: 4vw;
+}
+
+.main-content a {
+    font-size: 4vw;
+}
+
+.hr-line--footer {
+    border-top: #ff5a00 2px solid;
 }
 
 .rights p {
@@ -174,7 +160,7 @@
 }
 
 /* Newsletter */
-.newsletter-container{
+.newsletter-container {
     display: flex;
     flex-direction: row;
 }
@@ -206,31 +192,32 @@
     font-weight: bold;
 }
 
-.newsletter-direction{
+.newsletter-direction {
     display: flex;
     flex-direction: row;
 }
 
-.email-input{
+.email-input {
     border-left: none;
     border-right: none;
     border-top: none;
     border-radius: 0;
 }
 
-.email-input:focus{
+.email-input:focus {
     box-shadow: 0px 2px 0px 0px #ff5a00;
     border-bottom: #ff5a00;
 }
 
 
 @media screen and (max-width: 700px) {
-    .newsletter-direction{
+    .newsletter-direction {
         display: flex;
         flex-direction: column;
     }
 
-    .newsletter-info{
-        border-left: 1px solid #ff5a00;;
+    .newsletter-info {
+        border-left: 1px solid #ff5a00;
+        ;
     }
 }
