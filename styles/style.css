@@ -37,11 +37,16 @@
     color: #ff5a00 !important;
 }
 
+/* Login SignIn */
+
+.user-section {
+    list-style-type: none;
+}
+
 .white-bg {
     background-color: white !important;
     color: black !important;
     border-radius: 2px;
-    margin: 0 1rem 0 1rem !important;
     transition: 0.3s;
 }
 
@@ -173,7 +178,7 @@
 
 /* Newsletter */
 
-.newsletter-info{
+.newsletter-info {
     text-align: left;
     width: 320px;
     padding: 70px 50px 100px 70px;
@@ -181,21 +186,20 @@
     border-left: none;
 }
 
-.btn-orange{
+.btn-orange {
     background-color: #ff5a00;
     border: 1px solid #ff5a00;
     border-radius: 20px;
     padding: 10px;
 }
 
-.btn-orange:hover{
+.btn-orange:hover {
     cursor: pointer;
     background-color: #ff5a00;
     border: 1px solid #ff5a00;
-    transform:scale(1.05);
+    transform: scale(1.05);
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
-
