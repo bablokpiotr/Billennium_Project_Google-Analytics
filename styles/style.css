@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Billennium;
+    src: url(../fonts/Billennium-Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Billennium;
+    src: url(../fonts/Billennium-SemiBold.otf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+* {
+    font-family: 'Billennium';
+}
+
+
+/* NavBar */
+
+.navbar {
+    background-color: black !important;
+}
+
+.active {
+    color: #ff5a00 !important;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transition-timing-function: ease-out;
+    color: #ff5a00 !important;
+}
+
+.white-bg {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 2px;
+    margin: 0 1rem 0 1rem !important;
+    transition: 0.3s;
+}
+
+.orange-bg {
+    background-color: #ff5a00 !important;
+    color: black !important;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.white-bg:hover {
+    transition-timing-function: ease-out;
+    color: #ff5a00 !important;
+}
+
+.orange-bg:hover {
+    transition-timing-function: ease-out;
+    color: white !important;
+}
+
+/* Main Header */
+
+.main-header p {
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Search Form */
+
+.search-input:focus {
+    outline: none !important;
+    border: 1px solid #ff5a00;
+    box-shadow: none;
+}
+
+.search-btn {
+    background-color: white !important;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    transition-timing-function: ease-out;
+    background-color: #ff5a00 !important;
+    color: hsl(0, 0%, 14%);
+    border: 1px solid #ff5a00 !important;
+}
+
+.search-btn:focus {
+    box-shadow: none;
+}
+
+/* Special Offer Container */
+.black-box {
+    border: 3px solid #000000;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 2rem;
+    top: 2rem;
+}
+
+.ad {
+    padding: 2rem 0 2rem 0;
+    border: 3px solid #ff5a00;
+    height: auto;
+    position: relative;
+    background-color: white;
+}
+
+.ad img {
+    color: black;
+    transform: rotate(-45deg);
+    text-align: center;
+    position: absolute;
+    top: -4rem;
+    left: -4rem;
+}
+
+.ad h2 {
+    font-weight: bold;
+}
+
+.ad h2 span {
+    font-weight: bold;
+    background-color: #ff5a00;
+}
+
+.ad p {
+    text-align: center;
+}
+
+/* Tiger Section */
+.tiger {
+    position: relative;
+}
+
+.tiger-slogan {
+    margin-top: 3rem;
+}
+
+.tiger-slogan img {
+    height: 150px;
+}
+
+.tiger-desc {
+    font-size: 0.8rem;
+}
+
+.tiger-sticker {
+    visibility: hidden;
+}
+
+
+/* Footer */
+
+.main-content {
+    border-bottom: #ff5a00 2px solid;
+}
+
+.rights p {
+    margin: 0;
+}

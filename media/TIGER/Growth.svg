@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="76px"
+   height="88px"
+   viewBox="0 0 76 88"
+   version="1.1"
+   id="svg479"
+   sodipodi:docname="Growth.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs483" />
+  <sodipodi:namedview
+     id="namedview481"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="9.9204545"
+     inkscape:cx="37.95189"
+     inkscape:cy="44"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="472"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg479" />
+  <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+  <title
+     id="title471">Billennium/icons/Development</title>
+  <desc
+     id="desc473">Created with Sketch.</desc>
+  <g
+     id="Billennium/icons/Development"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <polygon
+       id="Stroke-1"
+       fill="#FF5A00"
+       fill-rule="nonzero"
+       points="34.8471698 38.3089293 48.9398779 30.1275195 50.4460844 32.7220025 37.8471698 40.0362024 37.8471698 55.5325774 23.7529963 63.7132841 22.2470037 61.1186769 34.8471698 53.8051397" />
+    <polygon
+       id="Stroke-2"
+       fill="#FF5A00"
+       fill-rule="nonzero"
+       points="39.5990944 27.2971591 41.1055848 24.7028409 51.1926415 30.5602776 51.1926415 42.2686829 48.1926415 42.2686829 48.1926415 32.2873321" />
+    <path
+       d="M0.5,65.8580175 L0.5,22.1363676 L37.9975677,0.26348781 L75.5,22.1363102 L75.5,65.8580749 L37.9975677,87.7366277 L0.5,65.8580175 Z M3.5,64.1351061 L37.9976677,84.2633723 L72.5,64.1350486 L72.5,23.8595639 L37.9976677,3.73651219 L3.5,23.8595065 L3.5,64.1351061 Z"
+       id="Stroke-3"
+       fill="#FF5A00"
+       fill-rule="nonzero" />
+  </g>
+  <path
+     style="fill:#ffffff;stroke-width:0.100802"
+     d="M 20.765178,74.154986 3.628866,64.147559 V 43.99997 23.852381 l 17.085911,-9.977738 c 9.39725,-5.487755 17.176632,-9.9777369 17.287514,-9.9777369 0.110882,0 7.890263,4.4899819 17.287514,9.9777369 l 17.085911,9.977738 V 44 64.147619 l -17.085911,9.972327 c -9.397251,5.484781 -17.153952,9.98811 -17.237113,10.007399 -0.08316,0.01929 -7.862543,-4.468273 -17.287514,-9.972359 z m 10.098019,-14.502959 6.987891,-4.054732 0.0046,-7.764283 0.0046,-7.764283 5.052742,-2.923254 c 2.779009,-1.607789 5.090345,-2.938373 5.136302,-2.956853 0.04596,-0.01848 0.08356,1.807292 0.08356,4.057274 l 1e-5,4.090874 h 1.563234 1.563235 l -0.02601,-5.917309 -0.02601,-5.917309 -4.989691,-2.901077 c -2.74433,-1.595592 -5.035051,-2.901077 -5.090492,-2.901076 -0.126848,1e-6 -1.575742,2.514206 -1.510101,2.620414 0.02659,0.04302 1.590322,0.971976 3.474966,2.064349 1.884645,1.092374 3.404785,2.021476 3.378088,2.064672 -0.0267,0.0432 -2.656956,1.591961 -5.84502,3.4417 l -5.79648,3.363162 -0.0042,7.761741 -0.0042,7.761741 -6.248118,3.616263 c -3.436466,1.988945 -6.272041,3.654968 -6.301277,3.702274 -0.06691,0.108262 1.379637,2.610443 1.509134,2.610443 0.05247,0 3.239948,-1.824629 7.083288,-4.054731 z"
+     id="path633" />
+</svg>

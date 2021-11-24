@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="76px"
+   height="88px"
+   viewBox="0 0 76 88"
+   version="1.1"
+   id="svg708"
+   sodipodi:docname="Innovation.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs712" />
+  <sodipodi:namedview
+     id="namedview710"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="9.9204545"
+     inkscape:cx="37.95189"
+     inkscape:cy="44"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="472"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg708" />
+  <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+  <title
+     id="title698">Billennium/icons/Creativity</title>
+  <desc
+     id="desc700">Created with Sketch.</desc>
+  <g
+     id="Billennium/icons/Creativity"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <path
+       d="M0.5,65.8580175 L0.5,22.1363676 L37.9975677,0.26348781 L75.5,22.1363102 L75.5,65.8580749 L37.9975677,87.7366277 L0.5,65.8580175 Z M3.5,64.1351061 L37.9976677,84.2633723 L72.5,64.1350486 L72.5,23.8595639 L37.9976677,3.73651219 L3.5,23.8595065 L3.5,64.1351061 Z"
+       id="Stroke-3"
+       fill="#FF5A00"
+       fill-rule="nonzero" />
+    <path
+       d="M26.375,42.0568757 L37.9965336,48.7008646 L49.625,42.0566339 L49.625,28.8012706 L37.9965337,22.1563241 L26.375,28.8010288 L26.375,42.0568757 Z M37.9961168,18.7008187 L52.625,27.0603171 L52.625,43.7976804 L37.9961169,52.1562783 L23.375,43.7974386 L23.375,27.060559 L37.9961168,18.7008187 Z"
+       id="path703"
+       fill="#FF5A00"
+       fill-rule="nonzero" />
+    <rect
+       id="Rectangle"
+       fill="#FF5A00"
+       x="29"
+       y="56"
+       width="18"
+       height="3" />
+    <rect
+       id="Rectangle-Copy"
+       fill="#FF5A00"
+       x="29"
+       y="62"
+       width="18"
+       height="3" />
+  </g>
+  <path
+     style="fill:#ffffff;stroke-width:0.100802"
+     d="M 20.765178,74.154986 3.628866,64.147559 V 43.99997 23.852381 l 17.085911,-9.977738 c 9.39725,-5.487755 17.176632,-9.9777369 17.287514,-9.9777369 0.110882,0 7.890263,4.4899819 17.287514,9.9777369 l 17.085911,9.977738 V 44 64.147619 l -17.085911,9.972327 c -9.397251,5.484781 -17.153952,9.98811 -17.237113,10.007399 -0.08316,0.01929 -7.862543,-4.468273 -17.287514,-9.972359 z M 47.024055,63.505155 v -1.512028 h -9.021764 -9.021764 v 1.512028 1.512027 h 9.021764 9.021764 z m 0,-5.997709 v -1.562429 h -9.021764 -9.021764 v 1.562429 1.562428 h 9.021764 9.021764 z M 45.43381,47.968766 52.670106,43.83355 52.644332,35.41 52.618557,26.986451 46.116838,23.26681 c -3.575945,-2.045803 -6.869896,-3.922255 -7.319893,-4.169894 l -0.818175,-0.450251 -7.296372,4.170126 -7.296373,4.170128 -0.02577,8.422942 -0.02577,8.422944 7.283506,4.178906 c 4.005929,2.298399 7.350113,4.159414 7.43152,4.135589 0.08141,-0.02382 3.404347,-1.904165 7.384308,-4.178534 z"
+     id="path751" />
+  <path
+     style="fill:#ffffff;stroke-width:0.100802"
+     d="m 32.205447,45.323363 -5.694565,-3.263121 v -6.636843 -6.636843 l 5.745704,-3.283692 5.745705,-3.283692 5.745704,3.283615 5.745705,3.283615 v 6.646368 6.646366 l -5.695304,3.250163 c -3.132417,1.787589 -5.740997,3.251742 -5.796844,3.253673 -0.05585,0.0019 -2.664094,-1.464893 -5.796105,-3.259609 z"
+     id="path790" />
+</svg>
