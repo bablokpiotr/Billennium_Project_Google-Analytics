@@ -170,3 +170,32 @@
 .rights p {
     margin: 0;
 }
+
+/* Newsletter */
+
+.newsletter-info{
+    text-align: left;
+    width: 320px;
+    padding: 70px 50px 100px 70px;
+    border: 1px solid #ff5a00;
+    border-left: none;
+}
+
+.btn-orange{
+    background-color: #ff5a00;
+    border: 1px solid #ff5a00;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn-orange:hover{
+    cursor: pointer;
+    background-color: #ff5a00;
+    border: 1px solid #ff5a00;
+    transform:scale(1.05);
+}
+
+.bold{
+    font-weight: bold;
+}
+
