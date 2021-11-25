@@ -137,6 +137,9 @@
 }
 
 /* Footer */
+footer {
+    margin-top: 10rem;
+}
 
 .main-content h5 {
     font-size: 1rem;
@@ -214,16 +217,12 @@
     justify-content: center;
 }
 
-<<<<<<< HEAD
-.offer-direction .card{
+.offer-direction .card {
     width: 50%;
 }
 
 
-.card-title{
-=======
 .card-title {
->>>>>>> e2aa9acd1fd8ffdc578ab810120ac655c88dfb34
     color: gray;
 }
 
@@ -235,9 +234,8 @@
     width: 20%;
 }
 
-<<<<<<< HEAD
 /* Login Form */
-.login-form{
+.login-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -247,7 +245,7 @@
     width: 50%;
     padding: 20px 50px 20px 50px;
 }
-=======
+
 /* @media MainPage */
 
 @media (min-width: 550px) {
@@ -267,39 +265,9 @@
     .main-content a {
         font-size: 1rem;
     }
-}
-
-@media (min-width: 700px) {
-
-    .search input {
-        width: 50% !important;
-    }
-
-    .main-content h5 {
-        font-size: 1.5rem;
-    }
-
-    .main-content a {
-        font-size: 1.2rem;
-    }
-}
-
-
-@media (min-width: 900px) {
-    .search input {
-        width: 50% !important;
-    }
-
-    .main-content h5 {
-        font-size: 1.8rem;
-    }
-
-    .main-content a {
-        font-size: 1.3rem;
-    }
 
     .media {
-        width: 75%;
+        width: 90%;
         justify-content: space-between !important;
     }
 
@@ -312,11 +280,42 @@
     }
 }
 
+@media (min-width: 700px) {
+
+    .search input {
+        width: 50% !important;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .search input {
+        width: 50% !important;
+    }
+
+    .main-header {
+        width: 60% !important;
+    }
+
+    .ad {
+        width: 60% !important;
+    }
+
+    .media {
+        width: 75%;
+    }
+}
+
 @media (min-width: 992px) {
+    nav {
+        height: 7rem;
+    }
+
     .user-section {
         flex-direction: row !important;
-        width: 30% !important;
+        width: 18rem !important;
         justify-content: space-between !important;
+        margin-bottom: 0 !important;
     }
 
     .user-section li {
@@ -331,7 +330,13 @@
 
     .main-content a {
         font-size: 1rem;
-    
+
+    }
+
+    .media {
+        width: 65%;
+        justify-content: space-between !important;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -349,20 +354,16 @@
     }
 
     .media {
-        width: 50%;
+        width: 55%;
         justify-content: space-between !important;
-    }
-
-    .bille-motto {
-        width: 35%;
-    }
-
-    .eye {
-        width: 18%;
     }
 }
 
 @media (min-width: 1500px) {
+
+    nav div {
+        width: 60% !important;
+    }
 
     .search input {
         width: 30% !important;
@@ -372,63 +373,56 @@
         width: 8% !important;
     }
 
-
-    .main-content h5 {
-        font-size: 1.5vw;
+    .main-header {
+        width: 40% !important;
     }
 
-    .main-content a {
-        font-size: 1.2vw;
+    .ad {
+        width: 40% !important;
     }
 
-    .bille-motto {
-        width: 30%;
-    }
-
-    .eye {
-        width: 15%;
+    .media {
+        width: 50%;
+        justify-content: space-between !important;
     }
 }
 
 @media (min-width: 1800px) {
+
+    .search input {
+        width: 20% !important;
+    }
 
     .search button {
         width: 5% !important;
     }
 
     .main-header {
-        width: 35% !important;
+        width: 25% !important;
     }
 
     .ad {
-        width: 35% !important;
-    }
-
-    .main-content h5 {
-        font-size: 1vw;
-    }
-
-    .main-content a {
-        font-size: 0.8vw;
+        width: 30% !important;
     }
 
     .media {
-        width: 50%;
+        width: 45%;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    nav div {
+        width: 50% !important;
     }
 
-    .bille-motto {
-        width: 25%;
-    }
-
-    .eye {
-        width: 10%;
+    .media {
+        width: 35%;
     }
 }
 
 /* @media Newsletter */
->>>>>>> e2aa9acd1fd8ffdc578ab810120ac655c88dfb34
-
-.orange-border{
+.orange-border {
     background-color: white;
     border-color: 1px;
     color: #ff5a00;
@@ -441,29 +435,8 @@
     background-color: #ff5a00;
 }
 
-.login-form .form-group{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-#login:focus, #password:focus{
-    border: 1px solid #ff5a00;
-    box-shadow: none;
-}
-
-.login-button-container, .register-button-container{
-    width: 100%;
-    text-align: center;
-}
-
-.login-button-container button, .register-button-container button{
-    width: 100%;
-}
-
-
 @media screen and (min-width: 700px) {
-    .offer-direction .card{
+    .offer-direction .card {
         width: 25%;
     }
 }
@@ -476,49 +449,58 @@
     }
 
     .newsletter-info {
-<<<<<<< HEAD
         border-left: none;
         border-top: 1px solid #ff5a00;
     }
 }
-=======
-        border-left: 1px solid #ff5a00;
-        
-    }
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> e2aa9acd1fd8ffdc578ab810120ac655c88dfb34
+
+
+.login-form .form-group {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#login:focus, #password:focus {
+    border: 1px solid #ff5a00;
+    box-shadow: none;
+}
+
+.login-button-container, .register-button-container {
+    width: 100%;
+    text-align: center;
+}
+
+.login-button-container button, .register-button-container button {
+    width: 100%;
+}
+
 
 /* Login Form */
-@media screen and (min-width: 250px){
+@media screen and (min-width: 250px) {
     .login-form {
         width: 100%;
     }
 }
 
-<<<<<<< HEAD
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
     .login-form {
         width: 70%;
     }
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 800px) {
     .login-form {
         width: 50%;
     }
 }
 
-<<<<<<< HEAD
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1100px) {
     .login-form {
         width: 30%;
     }
 }
-=======
->>>>>>> main
-=======
+
 @media screen and (max-width: 1000px) {
     .offer-direction {
         display: flex;
@@ -533,4 +515,3 @@
         width: 50%;
     }
 }
->>>>>>> e2aa9acd1fd8ffdc578ab810120ac655c88dfb34
