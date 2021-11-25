@@ -1,7 +1,6 @@
 let currentLvl = 1;
 let draggedElem = null;
 
-console.log(window);
 window.onload = () => {
     const grayImagesContainer = document.querySelectorAll(".tiger-gray-item img")
 
@@ -102,6 +101,8 @@ function random(num) {
     }
     return arr;
 }
+
+
 
 const modalLogin = document.getElementById('modal-login');
 const modalRegister = document.getElementById('modal-register');
