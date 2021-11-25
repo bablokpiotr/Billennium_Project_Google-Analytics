@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    padding: 5vh 0px 0vh 5vh;
 }
 
 .tiger-item, .tiger-gray-item{
@@ -46,7 +47,7 @@
 }
 
 .tiger-icon-container{
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     opacity: 0;
     height: 0;
@@ -62,4 +63,11 @@
 .drag-over{
     border: dashed 3px rgb(255, 90, 0);
     padding: 2px;
+}
+
+/* Media Drag and Drop */
+@media (max-width: 860px) {
+    .tiger-items-container, .tiger-items-gray-container{
+        display: none;
+    }
 }
