@@ -17,35 +17,32 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="../media/billennium_logomark_nobg.svg" alt="" width="50">
+                <img src="./media/billennium_logomark_nobg.svg" alt="" width="40">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+            <button class="navbar-toggler w-10" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Newsletter</a>
+                        <a class="nav-link" href="/html/newsletter.html">Newsletter</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">Special Offer</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link white-bg" aria-current="page" href="#">Log In</a>
+                </ul>
+                <ul class="user-section flex-column d-flex justify-content-center align-items-center">
+                    <li class="mb-1 w-75">
+                        <a class="nav-link white-bg text-center" aria-current="page" href="#">Log In</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link orange-bg" aria-current="page" href="#">Sign In</a>
+                    <li class="mt-1 w-75">
+                        <a class="nav-link orange-bg text-center" aria-current="page" href="#">Sign In</a>
                     </li>
                 </ul>
-
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn search-btn" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
