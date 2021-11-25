@@ -76,13 +76,7 @@
 
 /* Search Form */
 
-.search-input:focus {
-    outline: none !important;
-    border: 1px solid #ff5a00;
-    box-shadow: none;
-}
-
-.search-btn {
+.search button {
     background-color: white !important;
     font-weight: bold;
     font-size: 1rem;
@@ -90,14 +84,14 @@
     border: 1px solid rgb(216, 216, 216);
 }
 
-.search-btn:hover {
+.search button:hover {
     transition-timing-function: ease-out;
     background-color: #ff5a00 !important;
     color: hsl(0, 0%, 14%);
     border: 1px solid #ff5a00 !important;
 }
 
-.search-btn:focus {
+.search button:focus {
     box-shadow: none;
 }
 
@@ -106,16 +100,17 @@
     border: 3px solid #ff5a00;
     height: auto;
     position: relative;
+    right: 1rem;
     background-color: white;
 }
 
 .ad img {
     color: black;
-    transform: rotate(-45deg);
+    transform: rotate(-40deg);
     text-align: center;
     position: absolute;
     top: -2rem;
-    left: -2rem;
+    left: -1.1rem;
 }
 
 .ad h2 {
@@ -144,19 +139,23 @@
 /* Footer */
 
 .main-content h5 {
-    font-size: 4vw;
+    font-size: 1rem;
 }
 
 .main-content a {
-    font-size: 4vw;
+    font-size: 0.8rem;
 }
 
 .hr-line--footer {
     border-top: #ff5a00 2px solid;
 }
 
-.rights p {
-    margin: 0;
+.bille-motto {
+    width: 70%;
+}
+
+.eye {
+    width: 20%;
 }
 
 /* Newsletter */
@@ -208,30 +207,35 @@
     border-bottom: #ff5a00;
 }
 
-.offer-direction{
+.offer-direction {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .offer-direction .card{
     width: 50%;
 }
 
 
 .card-title{
+=======
+.card-title {
+>>>>>>> e2aa9acd1fd8ffdc578ab810120ac655c88dfb34
     color: gray;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
 }
 
-.card{
+.card {
     width: 20%;
 }
 
+<<<<<<< HEAD
 /* Login Form */
 .login-form{
     display: flex;
@@ -243,6 +247,186 @@
     width: 50%;
     padding: 20px 50px 20px 50px;
 }
+=======
+/* @media MainPage */
+
+@media (min-width: 550px) {
+    .search {
+        flex-direction: row !important;
+    }
+
+    .search input {
+        margin-bottom: 0 !important;
+    }
+
+    .search button {
+        margin-top: 0 !important;
+        width: 25% !important;
+    }
+
+    .main-content a {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .search input {
+        width: 50% !important;
+    }
+
+    .main-content h5 {
+        font-size: 1.5rem;
+    }
+
+    .main-content a {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .search input {
+        width: 50% !important;
+    }
+
+    .main-content h5 {
+        font-size: 1.8rem;
+    }
+
+    .main-content a {
+        font-size: 1.3rem;
+    }
+
+    .media {
+        width: 75%;
+        justify-content: space-between !important;
+    }
+
+    .bille-motto {
+        width: 30%;
+    }
+
+    .eye {
+        width: 13%;
+    }
+}
+
+@media (min-width: 992px) {
+    .user-section {
+        flex-direction: row !important;
+        width: 30% !important;
+        justify-content: space-between !important;
+    }
+
+    .user-section li {
+        width: 8rem !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .main-content h5 {
+        font-size: 1.2rem;
+    }
+
+    .main-content a {
+        font-size: 1rem;
+    
+}
+
+@media (min-width: 1200px) {
+
+    .search input {
+        width: 40% !important;
+    }
+
+    .search button {
+        width: 15% !important;
+    }
+
+    .main-content {
+        width: 70% !important;
+    }
+
+    .media {
+        width: 50%;
+        justify-content: space-between !important;
+    }
+
+    .bille-motto {
+        width: 35%;
+    }
+
+    .eye {
+        width: 18%;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .search input {
+        width: 30% !important;
+    }
+
+    .search button {
+        width: 8% !important;
+    }
+
+
+    .main-content h5 {
+        font-size: 1.5vw;
+    }
+
+    .main-content a {
+        font-size: 1.2vw;
+    }
+
+    .bille-motto {
+        width: 30%;
+    }
+
+    .eye {
+        width: 15%;
+    }
+}
+
+@media (min-width: 1800px) {
+
+    .search button {
+        width: 5% !important;
+    }
+
+    .main-header {
+        width: 35% !important;
+    }
+
+    .ad {
+        width: 35% !important;
+    }
+
+    .main-content h5 {
+        font-size: 1vw;
+    }
+
+    .main-content a {
+        font-size: 0.8vw;
+    }
+
+    .media {
+        width: 50%;
+    }
+
+    .bille-motto {
+        width: 25%;
+    }
+
+    .eye {
+        width: 10%;
+    }
+}
+
+/* @media Newsletter */
+>>>>>>> e2aa9acd1fd8ffdc578ab810120ac655c88dfb34
 
 .orange-border{
     background-color: white;
@@ -301,7 +485,10 @@
         border-left: 1px solid #ff5a00;
         
     }
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> e2aa9acd1fd8ffdc578ab810120ac655c88dfb34
 
 /* Login Form */
 @media screen and (min-width: 250px){
@@ -310,6 +497,7 @@
     }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 500px){
     .login-form {
         width: 70%;
@@ -330,3 +518,19 @@
 }
 =======
 >>>>>>> main
+=======
+@media screen and (max-width: 1000px) {
+    .offer-direction {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .offer-direction .card {
+        width: 50%;
+    }
+}
+>>>>>>> e2aa9acd1fd8ffdc578ab810120ac655c88dfb34
