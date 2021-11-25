@@ -1,0 +1,65 @@
+.tiger-items-container, .tiger-items-gray-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.tiger-item, .tiger-gray-item{
+    width: 200px;
+    padding: 10px;
+    z-index: 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: black;
+    font-size: 1rem;
+    transition: all .5s ease-in-out;
+}
+
+.tiger-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+ /*************************************************/
+.arrow-right {
+    border: solid rgb(255, 90, 0);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    opacity: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.arrow-opacity-1{
+    opacity: 1;
+    transition: all 1.0s ease-in;
+}
+
+.arrow-container{
+    margin: auto;
+}
+
+.hide{
+    display: none;
+}
+
+.tiger-icon-container{
+    padding: 30px;
+    text-align: center;
+    opacity: 0;
+    height: 0;
+}
+
+.tiger-icon-container-visible{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all 1s ease-in;
+    height: auto;
+}
+
+.drag-over{
+    border: dashed 3px rgb(255, 90, 0);
+    padding: 2px;
+}
