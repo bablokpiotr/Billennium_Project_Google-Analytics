@@ -292,8 +292,9 @@ footer {
 @media (min-width: 992px) {
     .user-section {
         flex-direction: row !important;
-        width: 30% !important;
+        width: 18rem !important;
         justify-content: space-between !important;
+        margin-bottom: 0 !important;
     }
 
     .user-section li {
@@ -338,6 +339,10 @@ footer {
 }
 
 @media (min-width: 1500px) {
+
+    nav div {
+        width: 60% !important;
+    }
 
     .search input {
         width: 30% !important;
@@ -385,8 +390,13 @@ footer {
 }
 
 @media (min-width: 2000px) {
+
+    nav div {
+        width: 50% !important;
+    }
+
     .media {
-        width: 40%;
+        width: 35%;
     }
 }
 
