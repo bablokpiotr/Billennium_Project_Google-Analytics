@@ -1,0 +1,30 @@
+.offer-direction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer-direction .card {
+    width: 50%;
+}
+
+
+.card-title {
+    color: gray;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card {
+    width: 20%;
+}
+
+/* @media Special Offer */
+@media screen and (min-width: 700px) {
+    .offer-direction .card {
+        width: 25%;
+    }
+}
