@@ -1,0 +1,37 @@
+.advert {
+    border: 3px solid #ff5a00;
+    height: auto;
+    position: relative;
+    right: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.advert p {
+    text-align: center;
+}
+
+.clients-header{
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    padding: 5px;
+    background-color: white;
+}
+
+.clients-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clients-container img{
+    padding: 2vh;
+}
+
+.clients-container img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
