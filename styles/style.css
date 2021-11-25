@@ -68,6 +68,55 @@
     color: white !important;
 }
 
+/* Login Modal */
+
+.modal__login {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20rem;
+    z-index: 1 !important;
+    margin: 0 !important;
+    padding: 0!important;
+}
+
+.form__holder{
+    background-color: white;
+    width: 90% !important;
+    margin: 0!important;
+    padding: 0 !important;
+    min-height: 18rem;
+}
+
+.form__holder form {
+    width: 90%;
+}
+
+.form__holder form label {
+    text-align: left;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.hr__line {
+    width: 90%;
+    border-top: #ff5a00 1px solid;
+    margin: 0.8rem 0 0.8rem 0;
+    transition: 2s;
+}
+
+.register__ {
+    border: #ff5a00 1px solid;
+    transition: 0.3s;
+}
+
+.register__:hover {
+    transition-timing-function: ease-out;
+    background-color: #ff5a00;
+}
+
 /* Main Header */
 
 .main-header p {
@@ -451,67 +500,5 @@ footer {
     .newsletter-info {
         border-left: none;
         border-top: 1px solid #ff5a00;
-    }
-}
-
-
-.login-form .form-group {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-#login:focus, #password:focus {
-    border: 1px solid #ff5a00;
-    box-shadow: none;
-}
-
-.login-button-container, .register-button-container {
-    width: 100%;
-    text-align: center;
-}
-
-.login-button-container button, .register-button-container button {
-    width: 100%;
-}
-
-
-/* Login Form */
-@media screen and (min-width: 250px) {
-    .login-form {
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    .login-form {
-        width: 70%;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    .login-form {
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    .login-form {
-        width: 30%;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .offer-direction {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .offer-direction .card {
-        width: 50%;
     }
 }
