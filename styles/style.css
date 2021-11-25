@@ -290,6 +290,10 @@ footer {
 }
 
 @media (min-width: 992px) {
+    nav {
+        height: 7rem;
+    }
+
     .user-section {
         flex-direction: row !important;
         width: 18rem !important;
