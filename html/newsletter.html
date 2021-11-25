@@ -40,16 +40,53 @@
                     </li>
                 </ul>
                 <ul class="user-section flex-column d-flex justify-content-center align-items-center">
-                    <li class="mb-1 w-75">
+                    <li id="modal-login" class="mb-1 w-75">
                         <a class="nav-link white-bg text-center" aria-current="page" href="#">Log In</a>
                     </li>
-                    <li class="mt-1 w-75">
+                    <li id="modal-register" class="mt-1 w-75">
                         <a class="nav-link orange-bg text-center" aria-current="page" href="#">Sign In</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- Login Modal -->
+    <div id="login-display" class="modal__login container-fluid">
+        <div class="form__holder login-form d-flex flex-column justify-content-center align-items-center">
+            <form class="d-flex flex-column justify-content-center align-items-center">
+                <label for="login">Login</label>
+                <input type="text" class="form-control" />
+                <label for="login">Password</label>
+                <input type="password" class="form-control" />
+            </form>
+            <div class="login-button-container m-2">
+                <button type="button" class="btn orange-bg">Login</button>
+            </div>
+            <div class="hr__line"></div>
+            <p class="text-center">Nie pamiętasz hasła?</p>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="register-display" class="modal__login container-fluid">
+        <div class="form__holder login-form d-flex flex-column justify-content-center align-items-center">
+            <form id="form__holder-radioform">
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">Employee</label>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">Client</label>
+            </form>
+            <form class="form__holder-form d-flex flex-column justify-content-center align-items-center">
+                <label for="login">Login</label>
+                <input type="text" class="form-control" />
+                <label for="login">Password</label>
+                <input type="password" class="form-control" />
+            </form>
+            <div class="hr__line"></div>
+            <button type="button" class="register__ btn">Create Account</button>
+        </div>
+    </div>
 
     <div class="d-flex my-5 justify-content-center w-100">
         <div class="newsletter-container">
@@ -119,7 +156,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src="./js/main.js" async></script>
+    <script src="../js/main.js" async></script>
 </body>
 
 </html>
