@@ -1,20 +1,22 @@
 /* Newsletter */
 .newsletter-container {
     display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .newsletter-info {
     text-align: left;
     width: 300px;
     padding: 70px 50px 70px 50px;
-    border: 1px solid #ff5a00;
+    border: 3px solid #ff5a00;
     border-top: none;
     height: 100%;
 }
 
 .btn-orange {
     background-color: #ff5a00;
-    border: 1px solid #ff5a00;
+    border: 3px solid #ff5a00;
     border-radius: 20px;
     padding: 10px;
 }
@@ -59,6 +61,6 @@
 
     .newsletter-info {
         border-left: none;
-        border-top: 1px solid #ff5a00;
+        border-top: 3px solid #ff5a00;
     }
 }
