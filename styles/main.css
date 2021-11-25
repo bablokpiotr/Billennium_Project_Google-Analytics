@@ -92,16 +92,6 @@
     box-shadow: 0px 0px 7px 0px gray;
 }
 
-.form__holder form {
-    width: 90%;
-}
-
-.form__holder form label {
-    text-align: left;
-    width: 100%;
-    margin-top: 1rem;
-}
-
 .hr__line {
     width: 90%;
     border-top: #ff5a00 1px solid;
