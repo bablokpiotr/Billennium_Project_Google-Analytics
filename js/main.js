@@ -1,33 +1,6 @@
 let currentLvl = 1;
 let draggedElem = null;
 
-// "use strict";
-// class RotateLogo {
-//     constructor() {
-//         this.tigerSpinStart = document.getElementById('tiger-spin');
-//         this.tigerSticker = document.getElementById('tiger-sticker');
-//         this.configure();
-//     }
-//     configure() {
-//         this.tigerSpinStart.addEventListener('click', this.rotateLogoHandler.bind(this));
-//     }
-//     rotateLogoHandler() {
-//         const style = window.getComputedStyle(this.tigerSticker);
-//         const visibility = style.getPropertyValue('visibility');
-//         if (visibility === 'hidden') {
-//             this.tigerSticker.style.visibility = 'visible';
-//             this.tigerSticker.style.transitionDuration = '1s';
-//             this.tigerSticker.style.transform = 'rotate(360deg)';
-//         }
-//         else {
-//             this.tigerSticker.style.transitionDuration = 'unset';
-//             this.tigerSticker.style.transform = 'none';
-//             this.tigerSticker.style.visibility = 'hidden';
-//         }
-//     }
-// }
-// const rotateLogo = new RotateLogo();
-
 console.log(window);
 window.onload = () => {
     const grayImagesContainer = document.querySelectorAll(".tiger-gray-item img")
@@ -74,9 +47,9 @@ function dragEnd(event) {
     const element = event.target;
     if (element.id != currentLvl - 1) {
         element.classList.remove('hide');
-    } 
+    }
 
-    if(currentLvl == 6){
+    if (currentLvl == 6) {
         const tigerContainer = document.querySelector(".tiger-icon-container");
         tigerContainer.classList.add("tiger-icon-container-visible");
     }
@@ -116,13 +89,13 @@ function drop(e) {
         }
         targetImg.src = sourceImg.src;
         draggedElem.classList.add("hide")
-    } 
+    }
     e.target.classList.remove('drag-over');
 }
 
 function random(num) {
     const arr = [];
-    
+
     while (arr.length < num) {
         var r = Math.floor(Math.random() * num) + 1;
         if (arr.indexOf(r) === -1) arr.push(r);
@@ -130,3 +103,29 @@ function random(num) {
     return arr;
 }
 
+const modalLogin = document.getElementById('modal-login');
+const modalRegister = document.getElementById('modal-register');
+
+modalLogin.addEventListener('click', displayHandler);
+modalRegister.addEventListener('click', displayHandler);
+
+function displayHandler(e) {
+
+    if (e.path[1].id === "modal-login") {
+        setDisplay("login-display")
+    } else {
+        setDisplay("register-display")
+    }
+}
+
+function setDisplay(id) {
+    const modal = document.getElementById(id)
+    const style = window.getComputedStyle(modal);
+    const display = style.getPropertyValue('display');
+
+    if (display === 'none') {
+        modal.style.display = 'flex';
+    } else {
+        modal.style.display = 'none';
+    }
+}
