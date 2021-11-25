@@ -178,8 +178,10 @@
 }
 
 .video-container {
+    padding: 5vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .video-iframe {
@@ -439,17 +441,6 @@ footer {
 
 /* @media Video */
 @media (min-width: 860px) {
-    .video-title {
-        margin: auto 0;
-        padding: 5vh;
-    }
-
-    .video-container {
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 5vh;
-    }
-
     .video-iframe {
         width: 50%;
     }
