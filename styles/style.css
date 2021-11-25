@@ -174,9 +174,6 @@
     height: 100%;
 }
 
-<<<<<<< HEAD
-.bold{
-=======
 .btn-orange {
     background-color: #ff5a00;
     border: 1px solid #ff5a00;
@@ -192,7 +189,6 @@
 }
 
 .bold {
->>>>>>> Edit_Web_Template
     font-weight: bold;
 }
 
@@ -240,9 +236,8 @@
 
     .newsletter-info {
         border-left: 1px solid #ff5a00;
-        ;
+        
     }
-<<<<<<< HEAD
 
 }
 
@@ -261,6 +256,3 @@
     }
 }
 
-=======
-}
->>>>>>> Edit_Web_Template
