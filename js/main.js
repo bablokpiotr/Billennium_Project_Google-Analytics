@@ -22,7 +22,7 @@ window.onload = () => {
         const row = template.cloneNode(true);
         const img = row.querySelector(".tiger-item-image");
 
-        img.src = `/media/tiger/${elem}.svg`;
+        img.src = `./media/TIGER/${elem}.svg`;
 
         img.id = elem;
 
