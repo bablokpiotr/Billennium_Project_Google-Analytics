@@ -30,6 +30,7 @@ window.onload = () => {
         img.addEventListener("dragend", dragEnd);
         body.appendChild(row);
     });
+
 }
 
 function dragStart(event) {
@@ -105,8 +106,6 @@ function random(num) {
     return arr;
 }
 
-
-
 const modalLogin = document.getElementById('modal-login');
 const modalRegister = document.getElementById('modal-register');
 
@@ -133,3 +132,4 @@ function setDisplay(id) {
         modal.style.display = 'none';
     }
 }
+
