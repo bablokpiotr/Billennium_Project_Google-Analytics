@@ -5,7 +5,6 @@ modalLogin.addEventListener('click', displayHandler);
 modalRegister.addEventListener('click', displayHandler);
 
 function displayHandler(e) {
-
     if (e.path[1].id === "modal-login") {
         setDisplay("login-display")
     } else {
@@ -15,6 +14,7 @@ function displayHandler(e) {
 
 function setDisplay(id) {
     const modal = document.getElementById(id)
+
     const style = window.getComputedStyle(modal);
     const display = style.getPropertyValue('display');
 
