@@ -88,7 +88,9 @@ function drop(e) {
             child[i].classList.add("arrow-opacity-1")
         }
         targetImg.src = sourceImg.src;
-        draggedElem.classList.add("hide")
+        
+        const draggedElemContainer = draggedElem.parentNode;
+        draggedElemContainer.remove();
     }
     e.target.classList.remove('drag-over');
 }
