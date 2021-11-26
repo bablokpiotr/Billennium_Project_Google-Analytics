@@ -67,7 +67,7 @@
                 <button type="button" class="btn orange-bg">Login</button>
             </div>
             <div class="hr__line"></div>
-            <p class="text-center">Nie pamiętasz hasła?</p>
+            <a href="#" class="text-center">Forgot Password?</a>
         </div>
     </div>
 
@@ -140,7 +140,7 @@
         </div>
     </div>
 
-    <div class="container-fluid w-50 ">
+    <div class="container-fluid tiger-container">
         <div class="tiger-items-container mt-5"></div>
         <div class="tiger-items-gray-container mt-2">
             <div class="tiger-gray-item" draggable="true">
@@ -170,7 +170,7 @@
                 <div class="arrow-right"></div>
                 <div class="arrow-right"></div>
             </div>
-            <div class="tiger-gray-item arrow-container">
+            <div class="tiger-gray-item">
                 <img src="./media/TIGER/4-inactive.svg" id="4-inactive">
                 <div class="p-3">Energy</div>
             </div>
@@ -187,21 +187,20 @@
         <div class="tiger-icon-container">
             <img src="./media/TIGER/Tiger.svg">
         </div>
-        <div class="container-fluid video-container d-flex justify-content-center">
-            <div>
-                <h3><b>
-                        <p class="advert-header">BILLENNIUM
-                            <span style="background-color: #ff5a00;">SQUAD</span>
-                        </p>
-                    </b></h3>
-            </div>
-            <div class="video-iframe">
-                <iframe src="https://www.youtube.com/embed/2YIfWFeNn3s" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+    </div>
+    <div class="container-fluid video-container d-flex justify-content-center">
+        <div>
+            <h3><b>
+                    <p class="advert-header">BILLENNIUM
+                        <span style="background-color: #ff5a00;">SQUAD</span>
+                    </p>
+                </b></h3>
         </div>
-
+        <div class="video-iframe">
+            <iframe src="https://www.youtube.com/embed/2YIfWFeNn3s" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </div>
 
     <footer class="bg-black text-white d-flex flex-column justify-content-center align-items-center navbar bottom">
@@ -253,6 +252,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script type="module" src="./js/main.js" defer></script>
+    <script type="module" src="./js/modules/DragAndDrop.js" defer></script>
 
     <template id="tiger-item-row">
         <div class="tiger-item" draggable="true"><img class="tiger-item-image"></div>
