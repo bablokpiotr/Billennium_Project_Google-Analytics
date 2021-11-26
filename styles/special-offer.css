@@ -22,6 +22,20 @@
     width: 20%;
 }
 
+.card-body {
+    position: relative !important;
+}
+
+.card-text {
+
+    margin-bottom: 4rem;
+}
+
+.card-body a {
+    position: absolute;
+    bottom: 1rem;
+}
+
 /* @media Special Offer */
 @media screen and (min-width: 700px) {
     .offer-direction .card {
