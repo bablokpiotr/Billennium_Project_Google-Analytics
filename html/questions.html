@@ -44,10 +44,10 @@
                 </ul>
                 <ul class="user-section flex-column d-flex justify-content-center align-items-center">
                     <li id="modal-login" class="mb-1 w-75">
-                        <a class="nav-link white-bg text-center" aria-current="page" href="#">Log In</a>
+                        <a id="login" class="nav-link white-bg text-center" aria-current="page" href="#">Log In</a>
                     </li>
                     <li id="modal-register" class="mt-1 w-75">
-                        <a class="nav-link orange-bg text-center" aria-current="page" href="#">Sign In</a>
+                        <a id="register" class="nav-link orange-bg text-center" aria-current="page" href="#">Sign In</a>
                     </li>
                 </ul>
             </div>
@@ -56,7 +56,8 @@
 
     <!-- Login Modal -->
     <div id="login-display" class="modal__login container-fluid">
-        <div class="form__holder login-form d-flex flex-column justify-content-center align-items-center">
+        <div id="login-modal"
+            class="form__holder login-form d-flex flex-column justify-content-center align-items-center">
             <form class="d-flex flex-column justify-content-center align-items-center">
                 <label for="login">Login</label>
                 <input type="text" class="form-control" />
@@ -73,7 +74,8 @@
 
     <!-- Register Modal -->
     <div id="register-display" class="modal__login container-fluid">
-        <div class="form__holder login-form d-flex flex-column justify-content-center align-items-center">
+        <div id="register-modal"
+            class="form__holder login-form d-flex flex-column justify-content-center align-items-center">
             <form id="form__holder-radioform">
                 <input type="radio" id="html" name="fav_language" value="HTML">
                 <label for="html">Employee</label>
@@ -145,7 +147,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script type="module" src="../js/main.js" async></script>
-     <script src="../js/modules/GenerateQuestionTemplate.js" async></script>
+    <script src="../js/modules/GenerateQuestionTemplate.js" async></script>
 
     <template id="question-row">
         <div class="current-question"></div>

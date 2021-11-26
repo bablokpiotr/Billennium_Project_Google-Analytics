@@ -5,18 +5,19 @@ modalLogin.addEventListener('click', displayHandler);
 modalRegister.addEventListener('click', displayHandler);
 
 function displayHandler(e) {
-    if (e.path[1].id === "modal-login") {
-        setDisplay("login-display")
+    if (e.path[1].id === 'modal-login') {
+        setDisplay('login-display');
     } else {
-        setDisplay("register-display")
+        setDisplay('register-display');
     }
 }
 
 function setDisplay(id) {
     const modal = document.getElementById(id)
-
     const style = window.getComputedStyle(modal);
     const display = style.getPropertyValue('display');
+
+    modalSwitch(id)
 
     if (display === 'none') {
         modal.style.display = 'flex';
@@ -24,3 +25,22 @@ function setDisplay(id) {
         modal.style.display = 'none';
     }
 }
+
+function modalSwitch(id) {
+    let modalToClose;
+
+    if (id === 'login-display') {
+        modalToClose = document.getElementById('register-display');
+        modalToClose.style.display = 'none';
+    } else if (id === 'register-display') {
+        modalToClose = document.getElementById('login-display');
+        modalToClose.style.display = 'none';
+    }
+}
+
+document.addEventListener('mousedown', (e) => {
+    if (e.path[2].id !== 'login-modal' && e.path[0].id !== 'login-modal') {
+        modalSwitch('login-display');
+        modalSwitch('register-display');
+    }
+})
