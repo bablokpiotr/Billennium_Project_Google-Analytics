@@ -2,15 +2,13 @@ window.onload = () => {
     setData();
 }
 
-document.getElementById("")
-
 /* QuestionScript */
 let currentQuestion = 1;
 let currentAnswer = "";
 let questionsArray = null;
 let answers = [];
 
-async function readQuestionFromFile() {
+async function readQuestionsFromFile() {
     const array = [];
     const response = await fetch("../questions/questions.json");
     const data = await response.json();
@@ -23,7 +21,7 @@ async function readQuestionFromFile() {
 }
 
 async function setData() {
-    questionsArray = await readQuestionFromFile();
+    questionsArray = await readQuestionsFromFile();
     generateQuestionTemplate(currentQuestion);
 }
 
