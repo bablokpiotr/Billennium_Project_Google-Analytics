@@ -35,6 +35,7 @@ window.onload = () => {
         img.addEventListener("dragend", dragEnd);
         body.appendChild(row);
     });
+
 }
 
 function dragStart(event) {
@@ -108,4 +109,6 @@ function random(num) {
         if (arr.indexOf(r) === -1) arr.push(r);
     }
     return arr;
+
 }
+
