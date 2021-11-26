@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 5vh 0px 0vh 5vh;
 }
 
 .tiger-item, .tiger-gray-item{
