@@ -45,6 +45,18 @@
     color: white;
 }
 
+.alert{
+    border: 3px solid #ff5a00;
+}
+
+.hide{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+
 #previous-question {
     background-color: #ff5a00;
     transition: 0.3s;
