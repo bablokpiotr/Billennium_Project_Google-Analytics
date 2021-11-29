@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <div class="container-fluid w-75">
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
         <div class="questions-container">
 
         </div>
@@ -150,6 +150,7 @@
     <script src="../js/modules/GenerateQuestionTemplate.js" async></script>
 
     <template id="question-row">
+        <h1 class="frame__name">Lorem Ipsum</h1>
         <div class="current-question"></div>
         <div class="question__line"></div>
         <div class="progress">
@@ -174,10 +175,12 @@
                 <label class="form-check-label" for="answer4" id="answer4-label"></label>
             </div>
         </div>
-        <div>
-            <button class="btn orange-bg" type="button" id="previous-question">Previous</button>
-            <button class="btn orange-bg disabled" type="button" id="next-question">Next</button>
-            <button class="btn btn-danger" type="button" id="close-question-form">Close</button>
+        <div class="buttons">
+            <button class="btn question__btns" type="button" id="previous-question">Previous</button>
+            <button class="btn disabled question__btns" type="button" id="next-question">Next</button>
+            <button class="btn question__btns" type="button" id="close-question-form">Close</button>
+        </div>
+        <div class="black__box__questions container-fluid d-flex flex-column justify-content-center align-items-center">
         </div>
     </template>
 </body>
