@@ -106,5 +106,8 @@ function prevQuestion() {
 }
 
 function closeQuestionForm() {
-    console.log(answers);
+    const question = document.getElementsByClassName("questions-container")[0];
+    const alert = document.getElementsByClassName("alert")[0];
+    question.classList.add("hide");
+    alert.classList.add("d-block");
 }
