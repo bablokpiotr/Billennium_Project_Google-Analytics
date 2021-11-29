@@ -17,7 +17,7 @@ window.onload = () => {
     const templateBox = document.getElementById("tiger-item-row");
     const template = templateBox.content;
 
-    const randomNum = random(5);
+    const randomNum = [1,2,3,4,5];      //random(5)
     randomNum.forEach(elem => {
         const row = template.cloneNode(true);
         const img = row.querySelector(".tiger-item-image");
