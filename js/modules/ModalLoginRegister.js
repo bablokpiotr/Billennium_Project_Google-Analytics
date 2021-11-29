@@ -39,7 +39,13 @@ function modalSwitch(id) {
 }
 
 document.addEventListener('mousedown', (e) => {
-    if (e.path[2].id !== 'login-modal' && e.path[0].id !== 'login-modal') {
+    if (e.path[0].id !== 'login-modal' &&
+        e.path[1].id !== 'login-modal' &&
+        e.path[2].id !== 'login-modal' &&
+        e.path[0].id !== 'register-modal' &&
+        e.path[1].id !== 'register-modal' &&
+        e.path[2].id !== 'register-modal'
+    ) {
         modalSwitch('login-display');
         modalSwitch('register-display');
     }
