@@ -56,7 +56,7 @@ async function generateQuestionTemplate(questionNum) {
         }
     }
 
-    currQuestion.textContent = currentQuestion;
+    currQuestion.textContent = `Question ${currentQuestion} from 5.`;
     question.textContent = quest.question;
     progressBar.style = `width: ${currentQuestion * (100 / questionsArray.length)}%`;
     answer1.textContent = quest.answer1;
