@@ -106,7 +106,7 @@ function prevQuestion() {
 }
 
 function closeQuestionForm() {
-    finalQuestionModal()
+    finalQuestionModal();
 }
 
 function finalQuestionModal() {
