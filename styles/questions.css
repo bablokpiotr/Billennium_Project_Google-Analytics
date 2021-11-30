@@ -1,8 +1,49 @@
 .questions-container {
     margin: 10rem 0 10rem 0;
-    width: 90% !important;
+    width: 90%;
     position: relative;
     background-color: #ffffff;
+}
+
+.end__question, .support__contact {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: #ff5a00;
+    height: 60%;
+    top: 10rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.end__question h1 {
+    color: white;
+    margin-bottom: 10rem;
+    width: 90%;
+}
+
+.end__question div {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end__question button {
+    width: 5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+}
+
+.end__question button:hover {
+    background-color: white;
+    color: #ff5a00;
 }
 
 .frame__name {
