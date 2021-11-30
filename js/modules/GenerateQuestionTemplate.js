@@ -75,14 +75,14 @@ async function generateQuestionTemplate(questionNum) {
     body.appendChild(row);
 }
 
-function addAnswer(e){
-    if(e.target.className == "form-check-input"){
+function addAnswer(e) {
+    if (e.target.className == "form-check-input") {
         const id = e.target.id;
         const elem = document.getElementById(id);
         currentAnswer = elem.value;
     }
 
-    answers[currentQuestion-1] = currentAnswer;
+    answers[currentQuestion - 1] = currentAnswer;
     unlockButton();
 }
 
@@ -110,4 +110,10 @@ function closeQuestionForm() {
     const alert = document.getElementsByClassName("alert")[0];
     question.classList.add("hide");
     alert.classList.add("d-block");
+}
+
+
+function finalQuestionModal() {
+    const finalQuestion = document.getElementById('end_question');
+    finalQuestion.style.display = 'flex';
 }

@@ -97,12 +97,32 @@
         <div class="questions-container">
         </div>
     </div>
+<<<<<<< HEAD
 
     <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
         <div class="close-alert alert hide mt-5">
             <p>Thank you for completing the poll</p>
+=======
+
+
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div id='end_question' class='end__question'>
+            <h1 class="text-center">Has the problem been resolved?</h1>
+            <div>
+                <button id="resolve_yes">Yes</button>
+                <button id="resolve_no">No</button>
+            </div>
         </div>
     </div>
+
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div id='support_contact' class='support__contact'>
+            <h1 class="text-center">Call, if none of these solutions works.         </h1>
+            <p>000-000-000</p>
+>>>>>>> Edit_Question_Template
+        </div>
+    </div>
+
     <footer class="bg-black text-white d-flex flex-column justify-content-center align-items-center navbar bottom">
         <div class="main-content py-4 container-fluid w-90 d-flex flex-row justify-content-evenly align-items-cente">
             <div class="col-2">
@@ -152,7 +172,8 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script type="module" src="../js/main.js" async></script>
-    <script src="../js/modules/GenerateQuestionTemplate.js" async></script>
+    <script type="module" src="../js/modules/SupportModals.js" async></script>
+    <script type="module" src="../js/modules/GenerateQuestionTemplate.js" async></script>
 
     <template id="question-row">
         <h1 class="frame__name">Lorem Ipsum</h1>
@@ -182,8 +203,9 @@
         </div>
         <div class="buttons">
             <button class="btn question__btns" type="button" id="previous-question">Previous</button>
-            <button class="btn disabled question__btns" type="button" id="next-question">Next</button>
-            <button class="btn question__btns" type="button" id="close-question-form">Close</button>
+            <button class="btn question__btns disabled" type="button" id="next-question">Next</button>
+            <button class="btn question__btns" type="button" id="close-question-form">End</button>
+            <!-- <button class="btn question__btns" type="button" id="close-question-form">Support Contact</button> -->
         </div>
         <div class="black__box__questions container-fluid d-flex flex-column justify-content-center align-items-center">
         </div>
