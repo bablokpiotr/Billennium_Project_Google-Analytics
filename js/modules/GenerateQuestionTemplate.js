@@ -106,12 +106,8 @@ function prevQuestion() {
 }
 
 function closeQuestionForm() {
-    const question = document.getElementsByClassName("questions-container")[0];
-    const alert = document.getElementsByClassName("alert")[0];
-    question.classList.add("hide");
-    alert.classList.add("d-block");
+    finalQuestionModal()
 }
-
 
 function finalQuestionModal() {
     const finalQuestion = document.getElementById('end_question');
