@@ -1,47 +1,43 @@
 const yesButton = document.getElementById('resolve_yes');
 const noButton = document.getElementById('resolve_no');
 const closeModals = document.getElementById('close-callModal');
-const endQuestion = document.getElementById('end_question');
 
 yesButton.addEventListener('click', onEndComment);
 noButton.addEventListener('click', supportQuestionModal);
 closeModals.addEventListener('click', closeAllModals);
 
-
 function supportQuestionModal() {
-    const finalQuestion = document.getElementById('support_contact');
-    finalQuestion.style.display = 'flex';
+    manageElDisplay('support_contact', 'flex');
 }
 
 function closeAllModals() {
-    const support = document.getElementById('support_contact');
-
-    support.style.display = 'none';
-    endQuestion.style.display = 'none';
+    manageElDisplay('support_contact', 'none');
+    manageElDisplay('end_question', 'none');
     window.location.reload(true);
 }
 
 function onEndComment() {
-    const furryFace = document.getElementById('furry_face');
-    const smileFace = document.getElementById('smile_face');
-    furryFace.style.display = 'none';
-    smileFace.style.display = 'flex';
-    const buttons = document.getElementById('resolve_buttons');
-    const h1 = document.getElementById('end_question_h1');
-    creatElement('button');
-
-    buttons.style.display = 'none';
-    h1.innerHTML = `We're glad we were able to solve your problem!`
+    manageElDisplay('furry_face', 'none');
+    manageElDisplay('smile_face', 'flex');
+    manageElDisplay('resolve_buttons', 'none');
+    replaceElText('end_question_h1', `We're glad we were able to solve your problem!`)
+    creatElement('button', 'Close', 'close__modal', 'click', closeAllModals, 'end_question');
 }
 
-function creatElement(el) {
+function manageElDisplay(id, disp) {
+    const elVis = document.getElementById(id);
+    elVis.style.display = disp;
+}
+
+function replaceElText(id, newText) {
+    const editEl = document.getElementById(id);
+    editEl.innerHTML = newText;
+}
+
+function creatElement(el, userInnerHTML, userCssClass, event, functionToAdd, appendTo) {
     const newEl = document.createElement(el);
-    newEl.classList.add('close__modal');
-    newEl.innerHTML = 'Close';
-    newEl.addEventListener('click', closeAllModals)
-    endQuestion.appendChild(newEl);
-
-    newEl.addEventListener('click', closeAllModals)
-
-    return newEl
+    newEl.classList.add(userCssClass);
+    newEl.innerHTML = userInnerHTML;
+    newEl.addEventListener(event, functionToAdd)
+    document.getElementById(appendTo).appendChild(newEl);
 }
